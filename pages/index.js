@@ -1,9 +1,18 @@
-import Image from "next/image";
+import Navbar from "../components/Navbar";
+
+// Images
+import logo from "../imgs/logoBlack.png";
+
+//Styles
+const navBtnStyle = {
+  background: "black",
+  color: "white",
+};
 
 export default function Home() {
   return (
     <>
-      <div></div>
+      <Navbar img={logo} btnStyle={navBtnStyle} />
     </>
   );
 }
