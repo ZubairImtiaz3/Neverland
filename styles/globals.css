@@ -31,3 +31,40 @@ body {
   backdrop-filter: blur(50px);
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
 }
+
+/* Carrers */
+
+.MuiAccordionSummary-root {
+  height: 6.25rem;
+}
+
+.MuiPaper-root {
+  border-radius: 0px !important;
+  box-shadow: none !important;
+}
+
+.MuiPaper-root .MuiButtonBase-root {
+  background-color: #ffffff;
+}
+
+.MuiButtonBase-root {
+  box-shadow: 0px 4px 0px rgba(0, 0, 0, 0.08);
+  border-radius: 20px;
+}
+
+.MuiButtonBase-root.MuiAccordionSummary-root.Mui-expanded {
+  border-radius: 20px 20px 0px 0px;
+}
+
+.containerCareers ul li {
+  list-style-type: disc;
+}
+
+/* About US */
+
+.containerCareerAboutUs {
+  background-image: url(../imgs/bgAboutUs.png);
+  background-repeat: no-repeat;
+  background-size: 94% 100%;
+  background-position: center;
+}

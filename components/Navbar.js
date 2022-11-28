@@ -13,10 +13,10 @@ function Navbar({ img, btnStyle }) {
 
           <ul className="md:flex items-center space-x-10 hidden">
             <li className="font-bold text-base">
-              <Link href="/">About Us</Link>
+              <Link href="/aboutUs">About Us</Link>
             </li>
             <li className="font-bold text-base">
-              <Link href="/">Careers</Link>
+              <Link href="/careers">Careers</Link>
             </li>
             <li>
               <button
